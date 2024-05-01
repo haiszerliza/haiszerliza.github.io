@@ -209,11 +209,11 @@ h2{
   }
 
 
-.button{
-	background-color:rgb(255, 255, 255);
-	color: #467986;
-	font-size: 2em;
+  .button{
+	background-color:#467986;
+	color: #ffffff;
 	text-align: center;
+	font-size: 2em;
 
 
 	
