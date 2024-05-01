@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Haiszer Anna Liza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="media/favicon.ico">
+    <script src="scripts/switch.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus" disabled="">
+    <title>Kezdőlap</title>
+    
+</head>
+<body>
+
+
+<header>
+    
+    <img src="media/header.png" alt="Matrica világa" class="header-image">
+    
+</header>
+
+
+
+
+
+	
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html"><strong>Kezdőlap</strong></a></li>
+        <li><a href="matricarol.html"><strong>Matricáról</strong></a></li>
+        <li><a href="galeria.html"><strong>Galéria</strong></a></li>
+        <li><a href="kapcsolat.html"><strong>Kapcsolat</strong></a></li>    
+    </ul> 
+    <nav id="gyengenlato">
+        <ul>
+            <li>
+                <a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;">
+                    <span class="ikon"></span><strong>Nagybetűs változat</strong></a>
+            </li>
+            <li>
+                <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">
+                    <span class="ikon"></span><strong>Normál változat</strong></a>
+            </li>
+        </ul>
+        
+        
+    </nav>   
+   
+</nav>
+
+<main id="tartalom" class="content">
+    <h1>Kezdőlap</h1>
+    <a href="#tartalom" class="kipozicional">Ugrás a tartalomra</a>
+    <article class="szoveg">
+        <h2>Üdvözöllek!</h2>
+        <p>Ez itt Matrica, a legcukibb cica weboldala. Itt mindent megtudhatsz róla, amit csak szeretnél. A <strong>különböző menüpontokból</strong> válogatva tájékozódhatsz a macskám mindennapjairól, élettörténetéről, stb. A <strong>Matricáról</strong> fül alatt megtalálod a cicám jellemzését, megismerheted kedvenc dolgait és hogy mik azok, amiket ki nem állhat. </p>
+        <p>A <strong>Galéria</strong> menüpontnál megtalálhatod a legjobb képeket Matricáról, kiscica korától egészen mostanáig. Ezeket folyamatosan bővíteni fogom, így érdemes legközelebb is ellátogatnod az oldalra. Matrica egy sztár, megérdemli, hogy csodálják. </p>
+        <p>A <strong>Kapcsolat</strong> cím alatt egy táblázat segítségével betekintést nyerhetsz a cicám heti programjába. Itt találsz egy űrlapot is, amivel emailt küldhetsz mindenki kedvenc macskájának. </p>
+    </article>
+    <video width="320" height="240" controls poster="media/thumbnail.png">
+        <source src="media/pacsi.mp4" type="video/mp4">
+    </video>
+    <div class="button">
+        <button onclick="linkbutton('video.html')">Videó leírása</button>
+    </div>
+</main> 
+<footer class="footer">
+    <div class="footertxt">
+      2024<br>
+      Készítette: Haiszer Anna Liza
+    </div>
+  </footer>  
+</body>
+</html>

@@ -1,0 +1,22 @@
+.timetable, .timetable tr, .timetable td{
+	font-size: 0.95em;
+	margin-left: auto;
+	margin-right: auto;
+	color:#467986;
+	border: 3px solid #467986;
+	padding: 8px;
+	text-align: center;
+	background-color:#ffffff;
+	max-width: 900px;
+  }
+
+  caption{
+	caption-side: top;
+	text-align: center;
+	color:#ffffff;
+	font-size: 1em;
+  }
+  .timetableee{
+	overflow-x:auto;
+  }
+
