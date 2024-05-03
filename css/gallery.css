@@ -13,7 +13,7 @@
 	padding: 0;
 	display: grid;
 	gap: 1rem;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 	max-width: 900px;
 	width: 100%;
 	height: auto;
@@ -91,5 +91,22 @@ a:is(:hover, :focus) figcaption {
 	a:is(:hover, :focus) img {
 		transform: scale(1.2);
 	}
+}
+
+@media (min-width: 400px) { 
+    .gallery-container ul {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 600px) { 
+    .gallery-container ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (min-width: 900px) { 
+    .gallery-container ul {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }
 
