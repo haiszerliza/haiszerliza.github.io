@@ -25,6 +25,10 @@
         color: black;
     }
 
+    figcaption{
+        display: none;
+    }
+
 
     .timetable,
     .timetable tr,
