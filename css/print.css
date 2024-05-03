@@ -29,7 +29,7 @@
     .timetable td {
         font-size: 0.8em;
         color: black;
-        border: none;
+        border-color:black;
         padding: 5px;
     }
 
