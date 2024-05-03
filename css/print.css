@@ -1,0 +1,52 @@
+@media print{
+ 
+    .navbar,
+    header,
+    .footer {
+        display: none !important;
+    }
+
+    .gallery-container img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .gallery-container video {
+        display: none !important;
+    }
+
+    .szoveg,
+    .data,
+    .data th,
+    .data td {
+        font-size: 0.8em;
+        color: black;
+    }
+
+
+    .timetable,
+    .timetable tr,
+    .timetable td {
+        font-size: 0.8em;
+        color: black;
+        border: none;
+        padding: 5px;
+    }
+
+    .timetable {
+        background-color: transparent;
+    }
+
+    caption {
+        caption-side: top;
+        text-align: center;
+        color: black;
+        font-size: 0.9em;
+    }
+
+    .timetableee {
+        overflow-x: auto;
+    }
+
+
+}
