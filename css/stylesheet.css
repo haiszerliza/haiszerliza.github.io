@@ -118,8 +118,14 @@ h2{
 	
 }
 .kipozicional {
-	position: absolute; left: -9999px;
+	position: absolute;
+	left: -9999px;
 	color:#ffffff;
+}
+
+.kipozicional:focus{
+	position:relative;
+    left:0;
 }
 
 link, a{

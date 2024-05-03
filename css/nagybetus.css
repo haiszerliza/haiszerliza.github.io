@@ -220,8 +220,14 @@ h2{
 }
 
 .kipozicional {
-	position: absolute; left: -9999px;
+	position: absolute;
+	left: -9999px;
 	color:rgb(0, 0, 0);
+}
+
+.kipozicional:focus{
+	position:relative;
+    left:0;
 }
 
 link, a{
