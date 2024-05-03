@@ -3,16 +3,16 @@
     .navbar,
     header,
     .footer {
-        display: none !important;
+        display: none;
     }
 
-    .gallery-container img {
+    .g{
         max-width: 200px;
         height: auto;
     }
 
-    .gallery-container video {
-        display: none !important;
+    video {
+        display: none;
     }
 
     .szoveg,
