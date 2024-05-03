@@ -28,8 +28,8 @@
     .timetable tr,
     .timetable td {
         font-size: 0.8em;
-        color: black;
-        border-color:black !important;
+        color: black !important;
+        border: none !important;
         padding: 5px;
     }
 
@@ -46,7 +46,7 @@
 
     .timetableee {
         overflow-x: auto;
-        border-color:black !important;
+        
     }
 
 
