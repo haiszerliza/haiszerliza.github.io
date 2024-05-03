@@ -11,10 +11,6 @@
         height: auto;
     }
     .gallery-container ul {
-        list-style: none;
-        padding: 0;
-        display: grid;
-        gap: 1rem;
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
     video {
